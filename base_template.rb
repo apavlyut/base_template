@@ -2,6 +2,7 @@ if yes? "Copy base templates?"
   run "cp /Users/ap/code/app_template/layouts/application.html.erb app/views/layouts/"
   run "cp /Users/ap/code/app_template/helpers/layout_helper.rb app/helpers/"
   run "cp /Users/ap/code/app_template/stylesheets/* public/stylesheets/"
+  run "touch public/stylesheets/application.css"
 end
 
 if yes? "Use authentication and authorization?"
